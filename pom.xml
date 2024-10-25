@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.javarush</groupId>
-    <artifactId>jira</artifactId>
+    <artifactId>JiraRush</artifactId>
     <version>1.0</version>
     <name>JiraRush</name>
     <description>Mini-JIRA from JavaRush</description>
@@ -141,6 +141,10 @@
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
         </dependency>
     </dependencies>
 
